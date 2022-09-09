@@ -12,7 +12,7 @@ public class Seasons {
                 if (month >= 9 && month <= 11){
                     System.out.println("Autumn");
                 }else {
-                    if (month == 12 && month >= 1 && month <= 2){
+                    if (month == 12 || month >= 1 && month <= 2){
                         System.out.println("Winter");
                     }else {
                         System.out.println("wrong number!");
